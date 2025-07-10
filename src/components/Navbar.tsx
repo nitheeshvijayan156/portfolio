@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Nitheesh_Vijayan.pdf';
+    link.href = '/portfolio/Nitheesh_Vijayan.pdf';
     link.download = 'Nitheesh_Vijayan_Resume.pdf';
     document.body.appendChild(link);
     link.click();
