@@ -83,7 +83,19 @@ const Experience = () => {
             <Award className="w-8 h-8 text-purple-400 mr-3" />
             <h2 className="text-3xl font-bold text-white">Certificates & Publications</h2>
           </div>
-          
+                    <div className="bg-gray-800/50 rounded-lg p-6 flex items-start justify-between">
+            <div className="flex items-center space-x-4">
+              
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-1">IBM Machine Learning Professional Certificate</h3>
+                <p className="text-blue-400 font-medium">Coursera / IBM</p>
+                <p className="text-gray-300 mt-2 max-w-md">
+                  Completed a professional certification covering foundational to advanced machine learning concepts, model deployment, and practical applications.
+                </p>
+              </div>
+            </div>
+            <span className="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-full text-sm">Certificate</span>
+          </div>
           <div className="space-y-6">
             <div className="bg-gray-800/50 rounded-lg p-6">
               <div className="flex items-start justify-between mb-4">
